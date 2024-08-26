@@ -1,0 +1,7 @@
+START
+INPUT number1
+INPUT number2
+INPUT number3
+SET number1 number2 number3 in ascending order
+PRINT last number
+END
