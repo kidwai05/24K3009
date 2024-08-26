@@ -1,0 +1,10 @@
+START
+INPUT number1
+INPUT number2
+INPUT number3
+SET sumi to -1*number1
+SET sum2 to -1*number2
+SET sum3 to -1*number3
+SET sumf to -sum1-sum2-sum3
+PRINT 'sumf'
+END
