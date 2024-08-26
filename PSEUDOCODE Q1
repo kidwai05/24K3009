@@ -1,7 +1,7 @@
 START
-INPUT number1
-INPUT number2
-INPUT number3
-SET number1 number2 number3 in ascending order
-PRINT last number
+INPUT num1
+INPUT num2
+INPUT num3
+IF num1<num2, PRINT num1, ELSE 
+PRINT number3
 END
