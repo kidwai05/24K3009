@@ -1,0 +1,17 @@
+START
+INPUT num1
+INPUT num2
+INPUT operator (+ - * / %)
+SET sum=0
+IF operator=+ THEN
+SET sum=num1+num2
+ELSEIF operator=- THEN
+SET sum=num1-num2
+ELSEIF operator=* THEN
+SET sum=num1*num2
+ELSEIF operator=/ THEN
+SET sum=num1/num2
+ELSEIF operator=% THEN
+SET sum=num1*100/num2
+DISPLAY "sum"
+END
