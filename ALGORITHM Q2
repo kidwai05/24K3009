@@ -1,0 +1,16 @@
+START
+INPUT num
+IF num=1 THEN DISPLAY "January"
+IF num=2 THEN DISPLAY "February"
+IF num=3 THEN DISPLAY "March"
+IF num=4 THEN DISPLAY "April"
+IF num=5 THEN DISPLAY "May"
+IF num=6 THEN DISPLAY "June"
+IF num=7 THEN DISPLAY "July"
+IF num=8 THEN DISPLAY "August"
+IF num=9 THEN DISPLAY "September"
+IF num=10 THEN DISPLAY "October"
+IF num=11 THEN DISPLAY "November"
+IF num=12 THEN DISPLAY "December"
+ELSE DISPLAY "input valid number"
+END
