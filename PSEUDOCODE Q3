@@ -1,0 +1,11 @@
+START
+INPUT num1
+INPUT num2
+INPUT operator(PLUS or MINUS)
+SET sum=0
+IF operator=PLUS, THEN
+SET sum=num1+num2
+ELSE
+SET sum=num1-num2
+DISPLAY sum
+END
