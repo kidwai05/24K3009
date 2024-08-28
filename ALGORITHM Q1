@@ -1,0 +1,13 @@
+START
+INPUT num1
+INPUT num2
+SET ans=num1 mod num2
+IF ans=0 THEN
+DISPLAY "Divisor"
+IF num1 mod 2=0 THEN
+DISPLAY "even"
+ELSE
+DISPLAY "odd"
+ELSE 
+PRINT "not Divisor"
+END
